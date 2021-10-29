@@ -57,7 +57,7 @@ spec:
       containers:
       - name: review-service-server
         image: miverboven/review-service-ex
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         ports:
           - name: http
             containerPort: 8052 # The port that the container exposes
