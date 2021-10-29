@@ -60,7 +60,7 @@ spec:
       containers:
       - name: book-info-service-server
         image: miverboven/book-info-service-ex
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         ports:
           - name: http
             containerPort: 8051 # The port that the container exposes
