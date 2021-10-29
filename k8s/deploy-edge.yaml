@@ -17,7 +17,7 @@ spec:
       containers:
       - name: brank-edge-service-server
         image: miverboven/brank-edge-service-ex
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         ports:
           - name: http
             containerPort: 8050 # The port that the container exposes
